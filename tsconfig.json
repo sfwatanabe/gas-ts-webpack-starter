@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "types": ["google-apps-script", "google-apps-script-oauth2"],
+    "strict": true,
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "alwaysStrict": true,
+    "lib": ["esnext"],
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "baseUrl": "./"
+  },
+  "include": ["./src/**/*"]
+}
